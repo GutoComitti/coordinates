@@ -7,9 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Affiliate extends Model
 {
-    /**
-     * @var array<int, string>
-     */
     protected $fillable = [
         'latitude',
         'affiliate_id',
